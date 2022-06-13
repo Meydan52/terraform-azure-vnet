@@ -18,8 +18,9 @@ output "resource_group_location" {
 output "subnet_name" {
   value = azurerm_virtual_network.vnet.subnet
 }
+
 output "subnet_id" {
-  value = azurerm_virtual_network.vnet.subnet.id
+  value = azurerm_virtual_network.vnet.subnet
 }
 
 # output "full_info" {
